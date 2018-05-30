@@ -1,0 +1,20 @@
+body{
+    background: red;
+    font-family: "Comic Sans MS";
+}
+
+h1{
+    color: yellow;
+    display: flex;
+    justify-content: center;
+}
+
+.kermit{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+img{
+    align-self: center;
+    margin-bottom: 20px;
+ }
