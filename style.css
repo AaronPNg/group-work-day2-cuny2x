@@ -1,9 +1,53 @@
-body{
+.pepe_header {
+    text-align: center;
+    color: rgb(245, 214, 37) !important;
+    font-family: 'Plaster', cursive !important;
+    font-size: 32px;
+}
+
+.pepe_body {
+    background: rgb(243, 41, 15) !important;
+    align-items: center;
+}
+
+.pepe_borders {
+    border: solid black 10px;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+}
+
+.card-text {
+    color: rgb(243, 41, 15) !important;
+}
+
+.box {
+    display: flex;
+    align-items: flex-start;
+    background: #F6F3EB;
+    padding: 1em;
+    border-radius: 3px;
+}
+
+.card {
+    margin-left: 1em;
+    order: 1;
+}
+
+.pepe_link {
+    margin-top: 10px;
+    font-family: 'Plaster', cursive !important;
+    text-align: center;
+    font-size: 26px;
+}
+
+body {
     background: red;
     font-family: 'Plaster', cursive;;
 }
 
-h1{
+h1 {
     color: yellow;
     display: flex;
     justify-content: center;
@@ -15,11 +59,13 @@ p {
     justify-content: center;
 }
 
-.kermit{
+.kermit {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
 }
-img{
+
+img {
     align-self: center;
     margin-bottom: 20px;
+}
