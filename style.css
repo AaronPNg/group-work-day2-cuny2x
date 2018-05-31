@@ -1,21 +1,25 @@
-h1 {
+.pepe_header {
     text-align: center;
-    color: rgb(240, 220, 107) !important;
+    color: rgb(245, 214, 37) !important;
     font-family: 'Plaster', cursive !important;
     font-size: 32px;
 }
 
-body {
-    background: rgb(223, 74, 15) !important;
+.pepe_body {
+    background: rgb(243, 41, 15) !important;
     align-items: center;
 }
 
-#borders {
+.pepe_borders {
     border: solid black 10px;
     margin-top: 10px;
     margin-left: 10%;
     margin-right: 10%;
     box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+}
+
+.card-text {
+    color: rgb(243, 41, 15) !important;
 }
 
 .box {
@@ -31,7 +35,7 @@ body {
     order: 1;
 }
 
-.linklink {
+.pepe_link {
     margin-top: 10px;
     font-family: 'Plaster', cursive !important;
     text-align: center;
